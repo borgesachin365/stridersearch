@@ -424,7 +424,7 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
 }
 
 nav.navbar.bootsnav {
-  background-color: #fff;
+  background-color: #000;
   border-radius: 0;
   border: none;
   box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.04);
@@ -441,7 +441,7 @@ nav.bg-dark.navbar.bootsnav {
 }
 
 nav.navbar.bootsnav ul.nav > li > a {
-  color: #333333;
+  color: #fff;
   background-color: transparent !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -762,7 +762,7 @@ nav.navbar.attr-border .attr-nav::before {
   content: "";
   height: 2px;
   width: 40px;
-  background: #232323;
+  background: #fff;
   transition: all 0.35s ease-in-out;
 }
 
@@ -1197,6 +1197,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 
 .side img {
   margin-bottom: 20px;
+  width: 50%;
 }
 
 .side .widget .title {
@@ -1842,9 +1843,9 @@ nav.navbar.bootsnav {
     display: block;
   }
 
-  nav.navbar.bootsnav.navbar-fixed .logo-display {
+  /* nav.navbar.bootsnav.navbar-fixed .logo-display {
     display: none;
-  }
+  } */
 
   nav.navbar.bootsnav.navbar-fixed .logo-scrolled {
     display: block;
